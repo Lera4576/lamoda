@@ -1,4 +1,4 @@
-# Lamoda-like E-commerce Website
+# Lamoda
 
 ## Overview
 This e-commerce website allows users to browse and filter products seamlessly. Users can filter items by price, color, and search for specific products by name, enhancing their shopping experience.
