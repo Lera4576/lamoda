@@ -14,18 +14,17 @@ This e-commerce website allows users to browse and filter products seamlessly. U
 
 ## Technologies Used
 - **React**: For building the user interface and dynamic components.
-- **Redux**: For state management to handle product data and filters.
 - **CSS Modules**: For modular and maintainable styling.
-- **Axios**: For making API calls to fetch product data.
 
-## How to Use
-1. Enter a task title in the input field and (optionally) a description.
-2. Select an urgency level (Urgent, Medium, Not Urgent).
-3. Click "Add" to save the task.
-4. Use the "Generate Random Tasks" button to create 15 random tasks for testing.
-5. Use the search bar to filter tasks based on keywords.
-6. Check the box next to a task to mark it as completed.
-7. Utilize the edit and delete icons to modify or remove a task.
-8. Filter tasks by urgency and completion status for more efficient management.
+## How to Use the Site
+1. Go to the homepage and browse the available products.
+2. Use the filters to customize your search:
+   - **Price Filtering**: Set the minimum and maximum price using sliders or by entering values.
+   - **Color Filtering**: Select the desired colors from the available options.
+3. Enter the product name in the search bar to find specific items.
+4. Browse the filtered results and select items of interest for more information.
+
+
+
 
 
