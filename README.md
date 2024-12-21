@@ -28,7 +28,4 @@ This e-commerce website allows users to browse and filter products seamlessly. U
 7. Utilize the edit and delete icons to modify or remove a task.
 8. Filter tasks by urgency and completion status for more efficient management.
 
-## Getting Started
-1. **Clone the Repository**:
-   ```bash
-   git clone <YOUR_REPOSITORY_URL>
+
