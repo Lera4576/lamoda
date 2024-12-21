@@ -1,0 +1,317 @@
+ :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(255, 255, 255);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+ a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+
+  background-color: #ffffff;
+}
+
+body {
+  height: 100vh; 
+  margin: 0; 
+}
+.card-container {
+  margin-top: -340px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 26%;
+  margin-right: 8%;
+  gap: 20px; 
+  padding: 20px;
+}
+
+
+.card img {
+  width: 300px; 
+  height: 300px;
+  object-fit: cover; 
+}
+
+.card {
+  background-color: #e2e2e2;
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 300px; 
+  transition: transform 0.2s;
+}
+
+.card-image{
+  width: 300px;
+  height: 330px;
+}
+
+.buttons button.active {
+  background-color: #bbbbbb;
+}
+
+h2{
+  font-size: 27px;
+  color: #242424; 
+}
+
+h3{
+  font-size: 15px;
+  color: #808080;
+}
+
+p{
+  font-size: 15px;
+  color: #808080;
+}
+
+.no-results {
+  margin-left: 45%;
+  font-size: 1.5rem;
+  margin-top: -200px;
+}
+
+ input{
+  margin-left: 16%;
+  margin-top: 28px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} 
+
+.total-products{
+  margin-left: 16%;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #808080;
+}
+
+.buttons{
+  width: 600px;
+  height: 40px;
+  margin-left: 16%;
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.color-filters {
+  display: flex;
+  flex-direction: column; 
+  color: #242424;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+input[type="text"]{
+  width: 65%;
+  
+}
+
+input[type="number"]{
+  max-width: 30px;
+  margin-left: 1px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.price-filters{
+  margin-left: 16%;
+}
+
+.item-count{
+  margin-left: 16%;
+  margin-top: 10px;
+  color: #242424;
+}
+
+
+@media (max-width: 1635px) {
+ 
+.card-container {
+  margin-left: 30%;
+}
+}
+
+
+@media (max-width: 1125px) {
+  .card-container {
+    margin-left: 35%;
+  }
+
+  
+}
+
+@media (max-width: 845px) {
+  .card-container {
+    margin-left: 38%;
+    margin-right: 0%;
+  }
+
+  
+}
+
+@media (max-width: 800px) {
+
+  .card img{
+    width: 150px;
+    height: 170px;
+  }
+
+  .card {
+    background-color: #e2e2e2;
+    border: 1px solid #ccc;
+    padding: 16px;
+    width: 150px; 
+    transition: transform 0.2s;
+  }
+  
+  .buttons button.active {
+    background-color: #bbbbbb;
+  }
+  
+  h2{
+    font-size: 17px;
+    color: #242424; 
+  }
+  
+  h3{
+    font-size: 12px;
+    color: #808080;
+  }
+  
+  p{
+    font-size: 12px;
+    color: #808080;
+  }
+
+}
+
+@media (max-width: 690px) {
+  .buttons{
+    width: 300px;
+    height: 40px;
+    margin-left: 16%;
+    margin-top: 10px;
+    font-size: 10px;
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+ 
+  .card-container {
+    margin-left: 46%;
+  }
+  }
+
+
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%; 
+  }
+
+  .card-container {
+    margin-top: -400px;
+  }
+
+  .price-filters{
+    width: 5px;
+  }
+
+  .item-count{
+    width: 27px;
+  }
+}
+
+@media (max-width: 400px) {
+  .color-filters {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column; 
+    color: #242424;
+  }
+
+  .card img{
+    width: 70px;
+    height: 90px;
+  }
+
+  .card {
+    background-color: #e2e2e2;
+    border: 1px solid #ccc;
+    padding: 16px;
+    width: 70px; 
+    transition: transform 0.2s;
+  }
+  
+  .buttons button.active {
+    background-color: #bbbbbb;
+  }
+  
+  h2{
+    font-size: 12px;
+    color: #242424; 
+  }
+  
+  h3{
+    font-size: 10px;
+    color: #808080;
+  }
+  
+  p{
+    font-size: 10px;
+    color: #808080;
+  }
+
+  .buttons{
+    width: 100px;
+    height: 40px;
+    margin-left: 6%;
+    margin-top: 10px;
+    font-size: 6px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .price-filters{
+    margin-left: 6%;
+  }
+
+  .item-count{
+    margin-left: 6%;
+    margin-top: 10px;
+    color: #242424;
+  }
+
+  input{
+    margin-left: 6%;
+  }
+
+  button {
+    font-size: 0.6rem; 
+  }
+}
